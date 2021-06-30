@@ -1,0 +1,35 @@
+.category-title {
+  font: 600 1.125em/1.6em Poppins;
+  margin-top: 0;
+}
+.category-menu {
+  width: 100%;
+  max-width: 10em;
+  @media (max-width: 1180px) {
+    display: none;
+  }
+  margin-right: 2em;
+  ul {
+    list-style: none;
+    padding: 0px;
+    li {
+      margin-bottom: 10px;
+      font-size: 0.875em;
+      text-decoration-line: underline;
+      color: #6a983c;
+    }
+  }
+  button {
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 0.75em 1em;
+    border: none;
+    margin-top: 2em;
+    font-weight: bold;
+    svg {
+      width: 0.75em;
+      height: 0.6em;
+      margin-left: 5px;
+    }
+  }
+}

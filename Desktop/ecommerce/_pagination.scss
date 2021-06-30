@@ -1,0 +1,70 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 2em;
+  @media (max-width: 768px) {
+    padding: 0 1em;
+  }
+  .page-nums {
+    span {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #151515;
+    }
+    :first-child {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #a9a9a9;
+    }
+    .active {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #6a983c;
+    }
+  }
+  .article-number {
+    :first-child {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      color: #6a983c;
+      background: #f4f8ec;
+      border-radius: 12px;
+      padding: 0.2em;
+    }
+    :last-child {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #a9a9a9;
+    }
+  }
+}
+.next-btn {
+  background: #6a983c;
+  border: 2px solid #46760a;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 0.3em 1em;
+  display: block;
+  margin: -1.8em auto 2em auto;
+}

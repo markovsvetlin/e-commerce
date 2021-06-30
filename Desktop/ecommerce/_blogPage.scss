@@ -1,0 +1,89 @@
+.path {
+  padding: 1em 0em 1em 2em;
+  @media (max-width: 768px) {
+    padding: 1em 0em;
+  }
+  span {
+    font-size: 0.75em;
+    line-height: 1em;
+    margin: 0px 8px;
+    color: #a9a9a9;
+  }
+  :last-child {
+    color: #151515;
+  }
+}
+.page-title {
+  font: 600 2em/3em Poppins;
+  color: #151515;
+}
+.view {
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0;
+  }
+  .view-icons {
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 0.2em;
+    }
+    span {
+      padding: 1em;
+      display: flex;
+      align-items: center;
+      @media (max-width: 768px) {
+        padding: 0.5em;
+      }
+    }
+    :last-child {
+      font: 600 0.75em/1.125em Poppins;
+      color: #6a983c;
+      background: #f4f8ec;
+      border-radius: 12px;
+      padding: 0.3em;
+      margin-right: 0.2em;
+    }
+  }
+}
+.subscription {
+  margin-bottom: 4em;
+  max-width: 18em;
+  margin-right: 2em;
+  @media (max-width: 768px) {
+    margin: 2em 0;
+  }
+
+  h3 {
+    font: 600 1.125em/1.688em Poppins;
+  }
+  p {
+    font-size: 0.875em;
+    line-height: 1.188em;
+    color: #a9a9a9;
+  }
+  form {
+    .input {
+      position: relative;
+      background: #f9f9f9;
+      border: 1px solid #d1d1d1;
+      border-radius: 12px;
+      padding: 1em;
+      display: flex;
+      justify-content: space-between;
+      input {
+        background-color: transparent;
+        border: none;
+      }
+      button {
+        font: bold 1em/1.375em Poppins;
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+}

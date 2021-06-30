@@ -1,0 +1,19 @@
+@import "_header";
+@import "_featuredRecipes";
+@import "_sidebar";
+@import "_sections";
+@import "_comments";
+@import "_blogPosts";
+@import "_footer";
+@import "_pagination";
+@import "_blogPage";
+@import "_cards";
+html {
+  background: #f9f9f9;
+}
+
+body {
+  font-family: Open Sans;
+  color: #151515;
+  font-size: 16px;
+}
